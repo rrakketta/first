@@ -22,22 +22,137 @@ font-face {
     font-weight: 700;
     src: url(../fonts/gilroy-bold.ttf)
 }
-/*index.html*/
- header{
-     width: 100%;
- } 
-
- header-wrapper{
-     width: 100%;
-     background-color: rgb(37, 25, 25);
- }
-header-wrapper-black{
-    background-color: #202420;
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    font-family: "Gilroy", "Helvetica", sans-serif;
+    font-style: normal;
 }
- address {
-     font-family:"Gilroy","Helvetica" sans-serif;
-     font-style: normal;
-     font-weight:400;
-     color: #FFFFFF;
+html {
+    box-sizing: content-box;
+}
 
+/*index.html*/
+.header {
+    width: 100%;
+
+}
+.header-wrapper {
+    width: 100%;
+    background-color: #fff;
+}
+.header-wrapper-black {
+    background-color: #20242D;
+}
+.container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+ .container-wrapper-top{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     height: 34px;
+ }
+ .container-wrapper-bottom{
+    padding-top:12px;
+    padding-bottom:11px;
+    height: 57px;
+}
+  
+ .address{
+     font-weight:400;
+   color: #fff;
+   padding-left: 50px;
+ }
+
+ .black-list{
+     list-style: none;
+     display: flex;
+ }
+ .header-link {
+     color: #fff;
+     padding-right:50px ;
+     text-decoration:none;
+
+ }
+ .link-white{
+     list-style: none;
+     display: flex;
+
+ }
+
+ .pages{
+     margin: 56px;
+     font-weight: 600;
+   
+ }
+.pages:last-child{
+    padding: 0;
+}
+
+.logo{
+    padding-left:50px;
+}
+.header-text{
+    color: #20242D;
+    text-decoration:none;
+}
+.header-text:hover{
+    color:#FF7129;
+    ;
+}
+
+.section-medium{
+    background-image: url(../img/Panel.jpg);
+    min-height: 844px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    text-align: center;
+}
+.banner{
+    color: #fff;
+    font-weight: 700;
+    font-size: 92px;
+    padding-top: 271px;
+}
+ .under-banner{
+     color: #fff;
+     font-weight:400;
+     font-size: 16px;
+     line-height: 24px;
+     text-align: center;
+ }
+ .banner-button{
+     background-color: #FF7129;
+     box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+     border: 1px solid #FF7129 ;
+ }
+ .banner-button:hover{
+     background-color:#D35E22;;
+ }
+ .banner-button:focus{
+   background-color: #ff5b19;
+ }
+ .banner-button:active
+{
+    background-color: #e9813b;
+}
+ .banner-button-text{
+     color: #fff;
+    font-weight:700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 47px;
+    padding-left: 48px;
+    margin-top: 59px;
  }
