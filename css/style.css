@@ -57,12 +57,10 @@ html {
  .container-wrapper-top{
      padding-top: 10px;
      padding-bottom: 10px;
-     height: 34px;
  }
  .container-wrapper-bottom{
     padding-top:12px;
-    padding-bottom:11px;
-    height: 57px;
+    padding-bottom:7px;
 }
   
  .address{
@@ -88,7 +86,7 @@ html {
  }
 
  .pages{
-     margin: 56px;
+     margin-right: 56px;
      font-weight: 600;
    
  }
@@ -128,6 +126,8 @@ html {
      font-size: 16px;
      line-height: 24px;
      text-align: center;
+     width: 508px;
+     margin: 0 auto;
  }
  .banner-button{
      background-color: #FF7129;
@@ -156,3 +156,56 @@ html {
     padding-left: 48px;
     margin-top: 59px;
  }
+
+ .second-section{
+     width: 100%;
+     padding-top: 132px;
+     padding-bottom: 115px;
+ }
+ 
+ .name-second-section{
+    font-weight:700;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+    margin-top: 201px;
+
+ }
+ .second-text{
+    font-weight:400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+    margin-top: 64px;
+ }
+
+ .section-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+ }
+ .second-section-text{
+     max-width: 535px;
+ }
+ .footer{
+    width: 100%;
+    background-color: #20242D;
+}
+
+.footer-container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.link-footer{
+    list-style: none;
+    display: flex;
+}
+.footer .header-text{
+    color: #fff;
+}
