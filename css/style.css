@@ -239,5 +239,18 @@ html {
 }
 .footer-logo{
     margin-left: 50px;
-    background-color:#20242D;
+}
+.footer-button{
+   background-color:#20242D;
+}
+.footer-button-text{
+    color: #fff;
+    font-weight:700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 62px;
+    padding-left: 63px;
 }
