@@ -103,7 +103,7 @@ html {
 }
 .header-text:hover{
     color:#FF7129;
-    ;
+    
 }
 
 .section-medium{
@@ -114,6 +114,18 @@ html {
     background-position: center; 
     text-align: center;
 }
+.section-medium::before{
+    content: "";
+    position: absolute;
+    width: 1600px;
+    height: 844px;
+    left: 0px;
+    top: 91px;
+
+    background:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), rgba(32, 36, 45, 0.3) ;
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+    }
 .banner{
     color: #fff;
     font-weight: 700;
@@ -191,6 +203,7 @@ html {
  .footer{
     width: 100%;
     background-color: #20242D;
+    height: 207px;
 }
 
 .footer-container{
@@ -205,7 +218,26 @@ html {
 .link-footer{
     list-style: none;
     display: flex;
+    margin-top: 66px;
 }
+
+
 .footer .header-text{
     color: #fff;
+}
+.footer .header-text:hover{
+    color:#FF7129;
+
+}
+.nav-list-footer{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-text{
+    color: #7B7E85;   ;
+}
+.footer-logo{
+    margin-left: 50px;
+    background-color:#20242D;
 }
