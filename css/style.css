@@ -121,7 +121,6 @@ html {
     height: 844px;
     left: 0px;
     top: 91px;
-
     background:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), rgba(32, 36, 45, 0.3) ;
     mix-blend-mode: multiply;
     opacity: 0.9;
@@ -243,6 +242,7 @@ html {
 .footer-button{
    background-color:#20242D;
    margin-top: 50px;
+   margin-right: 50px;
 }
 .footer-button-text{
     padding-top: 16px;
@@ -268,4 +268,36 @@ html {
 .footer-button:focus {
     border: 1px solid #d66f3b;
     background-color: #25262b;
+}
+/*about.html*/
+.main{
+    width: 100%;
+}
+.main-about{
+    width: 100%;
+    background-image:url(/img/view2p.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    text-align: center; 
+    min-height: 350px;
+}
+.about-text{
+    font-weight:700px;
+    font-size: 48px;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 103px;
+    padding-left: 217px;
+    padding-right:1253px;
+    width: 130px;
+}
+.about-content{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 80px;
+    max-height: 168px;
+    max-width: 1134px;
+    font-weight: normal;
+    line-height: 24px;
 }
