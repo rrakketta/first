@@ -235,22 +235,37 @@ html {
     justify-content: space-between;
 }
 .nav-text{
-    color: #7B7E85;   ;
+    color: #7B7E85;  
 }
 .footer-logo{
     margin-left: 50px;
 }
 .footer-button{
    background-color:#20242D;
+   margin-top: 50px;
 }
 .footer-button-text{
-    color: #fff;
-    font-weight:700;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     padding-top: 16px;
     padding-bottom: 16px;
-    padding-right: 62px;
     padding-left: 63px;
+    padding-right: 62px;
+    background-color: #20242d;
+    border: 1px solid #ff7129;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .footer-button:hover {
+    border: 1px solid #e25f1e;
+    background-color: #41434b;
+}
+.footer-button:active {
+    border: 1px solid #ff7530;
+    background-color: #222327;
+}
+.footer-button:focus {
+    border: 1px solid #d66f3b;
+    background-color: #25262b;
 }
