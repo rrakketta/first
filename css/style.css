@@ -297,7 +297,7 @@ html {
     padding-left: 200px;
     padding-top: 80px;
     max-height: 168px;
-    max-width: 1134px;
+    margin: 0 auto;
     font-weight: normal;
     line-height: 24px;
 }
