@@ -77,13 +77,26 @@ html {
      color: #fff;
      padding-right:50px ;
      text-decoration:none;
+     position: relative;
 
+ }
+ .header-link::before{
+     position: absolute;
+     content:"";
+     width: 14px;
+     height: 14px;
+     background-image:url("../img/envelope.svg ");
+     background-position:center;
+     left:-21px;
+     background-repeat:no-repeat;
+     top: 2px;
  }
  .link-white{
      list-style: none;
      display: flex;
 
  }
+ 
 
  .pages{
      margin-right: 56px;
@@ -93,7 +106,25 @@ html {
 .pages:last-child{
     padding: 0;
 }
-
+.pages.current-link{
+    color: #FF7129;
+    position: relative;
+}
+.pages.current-link::before,
+.pages.current-link::after{
+    position: absolute;
+    content:"";
+    width: 10px;
+    height: 1px;
+    background-color: #FF7129;
+    top: 8px;
+}
+.pages.current-link::before{
+    left:-18px;
+}
+.pages.current-link::after{
+    right:-18px;
+}
 .logo{
     padding-left:50px;
 }
@@ -107,24 +138,14 @@ html {
 }
 
 .section-medium{
-    background-image: url(../img/Panel.jpg);
+    background-image:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), url(../img/Panel.jpg);
     min-height: 844px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
     text-align: center;
-}
-.section-medium::before{
-    content: "";
-    position: absolute;
-    width: 1600px;
-    height: 844px;
-    left: 0px;
-    top: 91px;
-    background:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), rgba(32, 36, 45, 0.3) ;
-    mix-blend-mode: multiply;
-    opacity: 0.9;
-    }
+    background-color:rgba(32, 36, 45, 0.3);
+ }
 .banner{
     color: #fff;
     font-weight: 700;
