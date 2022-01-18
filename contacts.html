@@ -3,101 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kontakt</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div>
-            <address> Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek </address>
-                <ul>
-                    <li>
-                        <img src=".svg" alt="Email">
-                        <a href="mailto:dorotapawezka@gmail.com">
-                            dorotapawezka@gmail.com
-                        </a>
-                    </li>
-                    <li>
-                        <img src=".svg" alt="Call">
-                        <a href="tel:+48695716531">
-                            <span>+48695716531</span>
-                        </a>
-                    </li>
-            </ul>
-        </div>
-        <div>
-            <a href="/">  <img src="/img/Logo 1.jpg" width="131" height="34" alt="FOTON-TECH LOGO"></a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="main.html">Strona główna</a>
-                    </li>
-                    <li>
-                        <a href="about.html">O nas</a>
-                    </li>
-                    <li>
-                        <a href="projects.html">Projekty</a>
-                    </li>
-                    <li>
-                        <a href="installation.html">Instalacja</a>
-                    </li>
-                    <li>
-                        <a href="contacts.html">Kontakt</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <header class="header">
+        <div class="header-wrapper header-wrapper-black">
+            <div class="container container-wrapper-top"> 
+                    <address class="address"> Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek </address>
+                    <ul class="black-list">
+                        <li>
+                            <a href ="mailto:dorotapawezka@gmail.com" class="header-link">
+                                <span> dorotapawezka@gmail.com</span>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="tel:+48695716531" class="header-link" > 
+                                 <span>+48695716531</span>
+                             </a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+             <div class="container container-wrapper-bottom">
+                 <a href="/" class="logo">  <img src="/img/Logo 1.png" width="131" height="34" alt="FOTON-TECH LOGO"></a>
+                 <nav>
+                     <ul class="link-white">
+                         <li class="pages " >
+                             <a href="/" class="header-text">Strona główna</a>
+                         </li>
+                         <li class="pages">
+                             <a href="about.html" class="header-text">O nas</a>
+                         </li>
+                         <li class="pages" >
+                             <a href="projects.html"class="header-text">Projekty</a>
+                         </li>
+                         <li class="pages" >
+                             <a href="installation.html"class="header-text">Instalacja</a>
+                         </li>
+                         <li class="pages current-link">
+                             <a href="contacts.html"class="header-text" class="header-text">Kontakt</a>
+                         </li>
+                     </ul>
+                 </nav>
+             </div>
+             
+     </header>
     <main>
-        <h1>Kontakt</h1>
-        <div>
+
+        <div class="contacts">
+        <h1 class="contact-title">Kontakt</h1>
+        <div class="contact-main">
             <p>Adres
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6885475887534!2d15.817508215796677!3d52.23087607976043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47067b7a45e03697%3A0x51babe9d7509ace9!2zR8WCw7N3bmEgNTMsIDY2LTIxMCBLb3NpZWN6eW4sINCf0L7Qu9GM0YjQsA!5e0!3m2!1sru!2sua!4v1640711456256!5m2!1sru!2sua"
-                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <address> Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek </address>
             </p>
             <p>E-mail
-                <img src=".svg" alt="Email">
-                        <a href="mailto:dorotapawezka@gmail.com">
-                            dorotapawezka@gmail.com
-                        </a>
+                <a href="mailto:dorotapawezka@gmail.com">
+                    dorotapawezka@gmail.com
+                </a>
             </p>
             <p>Telefon
-                <img src=".svg" alt="Call">
                 <a href="tel:+48695716531">
                     <span>+48695716531</span>
                 </a>
             </p>
         </div>
-        <img src="" width="800" height="607" alt="Address on the map">
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6885475887534!2d15.817508215796677!3d52.23087607976043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47067b7a45e03697%3A0x51babe9d7509ace9!2zR8WCw7N3bmEgNTMsIDY2LTIxMCBLb3NpZWN6eW4sINCf0L7Qu9GM0YjQsA!5e0!3m2!1sru!2sua!4v1640711456256!5m2!1sru!2sua"
+         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map" ></iframe> 
     </main>
-    <footer>
-        <div>
-            <a href="/"> <img src="/img/Logo 1.jpg" width="131" height="34" alt="FOTON-TECH LOGO"> </a>
-              <nav>
-              <ul>
-                  <li>
-                      <a href="/">Strona główna</a>
-                  </li>
-                  <li>
-                      <a href="about.html">O nas</a>
-                  </li>
-                  <li>
-                      <a href="projects.html">Projekty</a>
-                  </li>
-                  <li>
-                      <a href="installation.html">Instalacja</a>
-                  </li>
-                  <li>
-                      <a href="contacts.html">Kontakt</a>
-                  </li>
-              </ul>
-          </nav>
-          <button>Oddzwoń</button>
-      </div>
-         <div>
-          <a href=""> Polityka prywatności </a>
-          <a href="">Ochrona danych osobowych</a>
-         </div>
-    </footer>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-container">
+                <a href="/" > <img src="/img/Logo 1.png" width="131" height="34" alt="FOTON-TECH LOGO"  class="footer-logo"> </a>
+                <nav>
+                    <ul class="link-footer">
+                        <li class="pages">
+                            <a href="main.html" class="header-text">Strona główna</a>
+                        </li>
+                        <li class="pages">
+                            <a href="about.html" class="header-text" >O nas</a>
+                        </li>
+                        <li class="pages">
+                            <a href="projects.html" class="header-text">Projekty</a>
+                        </li>
+                        <li class="pages">
+                            <a href="installation.html" class="header-text">Instalacja</a>
+                        </li>
+                        <li class="pages">
+                            <a href="contacts.html" class="header-text">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="footer-button footer-button-text">Oddzwoń</button>
+                
+            </div>
+            <div second-footer-wrapper>
+                <ul class="nav-list-footer" >
+                    <li> 
+                        <a href="/" class="nav-text"> Polityka prywatności </a>
+                    </li> 
+                    <li>
+                        <a href="/" class="nav-text" >Ochrona danych osobowych</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </footer>    
+</body>
 </body>
 </html>

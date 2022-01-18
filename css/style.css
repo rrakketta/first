@@ -94,6 +94,7 @@ ul {
      background-repeat:no-repeat;
      top: 2px;
  }
+
  .link-white{
      list-style: none;
      display: flex;
@@ -349,4 +350,39 @@ ul {
     margin: 0 auto;
     padding-top: 77px;
    
+}
+/*projects*/
+.projects{
+    width: 100%;
+    min-height: 894px;
+}
+.text-projects{
+    font-weight: bold;
+    font-size: 48px;
+    color: #20242D;
+    line-height: 97%;
+    padding-top: 125px;
+    padding-left: 218px;
+    padding-right: auto;
+    padding-bottom: 37px;
+  } 
+  .slider{
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  /*contacts*/
+  .contacts{
+    width: 100%;
+    min-height: 782px;
+  }
+.contact-title{
+    font-size: 48px;
+    line-height: 97%;
+    font-weight: bold;
+    color: #20242D;
+    padding-top: 125px;
+    padding-left: 217px;
+    padding-right: auto;
+    padding-bottom: 67px;
 }
