@@ -33,6 +33,9 @@ font-face {
 html {
     box-sizing: content-box;
 }
+ul {
+    margin: 0;
+}
 
 /*index.html*/
 .header {
@@ -146,6 +149,17 @@ html {
     text-align: center;
     background-color:rgba(32, 36, 45, 0.3);
  }
+ .section-medium::before {
+    position: absolute;
+    content: "";
+    width: 379px;
+    height: 145px;
+    background-image: url(../img/solar.svg);
+    background-repeat:no-repeat;
+    left: 250px;
+    top: 290px;
+    }
+
 .banner{
     color: #fff;
     font-weight: 700;
@@ -203,6 +217,13 @@ html {
     margin-top: 201px;
 
  }
+ .name-second-section::before{
+     position: absolute;
+     content: "";
+     width: 1px;
+     height: 52px;
+     background-color: #FF7129;
+ }
  .second-text{
     font-weight:400;
     font-size: 16px;
@@ -230,6 +251,7 @@ html {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
+    padding-top: 58px;
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -238,7 +260,7 @@ html {
 .link-footer{
     list-style: none;
     display: flex;
-    margin-top: 66px;
+    
 }
 
 
@@ -262,8 +284,7 @@ html {
 }
 .footer-button{
    background-color:#20242D;
-   margin-top: 50px;
-   margin-right: 50px;
+   padding-right: 50px;
 }
 .footer-button-text{
     padding-top: 16px;
@@ -321,4 +342,11 @@ html {
     margin: 0 auto;
     font-weight: normal;
     line-height: 24px;
+}
+.second-footer-wrapper{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 77px;
+   
 }
