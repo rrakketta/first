@@ -386,3 +386,88 @@ ul {
     padding-right: auto;
     padding-bottom: 67px;
 }
+.contact-main{
+    display: flex;
+    justify-content: space-between;
+}
+/*intallation*/
+.installation{
+    width: 100%;
+    background-image: url(../img/instalacija.jpg);
+    min-height: 412px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.installation::before{
+    content:" ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), rgba(32, 36, 45, 0.3) ;
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+}
+.installation-name{
+    position: relative;
+    font-weight:700;
+    font-size: 72px;
+    line-height: 87px;
+    color: #fff;
+    padding-top: 162px;
+    padding-left: 451px;
+    padding-right: auto;
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-box{
+    padding-top: 120px;
+}
+.headline{
+    margin-bottom: 32px;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+}
+.first-header{
+    max-width: 542px;
+ }
+.info{
+    font-weight:400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+    max-width: 700px;
+}
+.first-content{
+    margin-bottom: 64px;
+ }
+.second-header{
+    max-width: 682px;
+}
+.second-content{
+    margin-bottom: 24px;
+}
+.third-content{
+    margin-top: 24px;
+    margin-bottom: 64px;
+
+}
+.under-headline{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+    max-width: 699px;
+    margin-bottom:  24px;
+}
+.photo{
+    margin-right: 29px;
+}
