@@ -94,6 +94,19 @@ ul {
      background-repeat:no-repeat;
      top: 2px;
  }
+ li:first-child .header-link::before{
+    position: absolute;
+    content:"";
+    width: 14px;
+    height: 14px;
+    background-image:url("../img/phone.svg ");
+    background-position:center;
+    left:-21px;
+    background-repeat:no-repeat;
+    top: 2px;
+ }
+
+
 
  .link-white{
      list-style: none;
@@ -216,6 +229,8 @@ ul {
     line-height: 97%;
     color: #20242D;
     margin-top: 201px;
+    position: relative;
+    padding-left: 16px;
 
  }
  .name-second-section::before{
@@ -224,6 +239,8 @@ ul {
      width: 1px;
      height: 52px;
      background-color: #FF7129;
+     left: 0;
+     bottom: 0;
  }
  .second-text{
     font-weight:400;
@@ -250,12 +267,19 @@ ul {
 
 .footer-container{
     width: 100%;
-    max-width: 1600px;
+    max-width: 1500px;
     margin: 0 auto;
     padding-top: 58px;
     display: flex;
     justify-content:space-between;
     align-items:center;
+}
+
+.footer-container:last-child{
+    padding-top: 50px;
+    padding-bottom: 45px;
+
+    border-bottom: 1px solid rgba (123, 126, 133, 0.3);
 }
 
 .link-footer{
@@ -276,6 +300,7 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .nav-text{
     color: #7B7E85;  
@@ -339,7 +364,7 @@ ul {
     display: flex;
     padding-left: 200px;
     padding-top: 80px;
-    max-height: 168px;
+    padding-bottom: 184px;
     margin: 0 auto;
     font-weight: normal;
     line-height: 24px;
