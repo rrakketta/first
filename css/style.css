@@ -170,9 +170,19 @@ ul {
     height: 145px;
     background-image: url(../img/solar.svg);
     background-repeat:no-repeat;
-    left: 250px;
+    left: 16px;
     top: 290px;
     }
+.section-medium::after{
+    position: absolute;
+    content: "";
+    width: 444px;
+    height: 145px;
+    background-image: url(../img/energy.svg);
+    background-repeat: no-repeat;
+    left: 1065px;
+    top: 525px;
+}
 
 .banner{
     color: #fff;
@@ -242,6 +252,8 @@ ul {
      left: 0;
      bottom: 0;
  }
+
+
  .second-text{
     font-weight:400;
     font-size: 16px;
@@ -259,6 +271,16 @@ ul {
  .second-section-text{
      max-width: 535px;
  }
+ .second-section-text::before{
+    position: absolute;
+    content: "";
+    width: 217px;
+    height: 116px;
+    background-image: url(../img/info.svg);
+    background-repeat:no-repeat;
+    left: 803px;
+    top: 1225px;
+}
  .footer{
     width: 100%;
     background-color: #20242D;
@@ -350,6 +372,7 @@ ul {
     text-align: center; 
     min-height: 350px;
 }
+
 .about-text{
     font-weight:700px;
     font-size: 48px;
@@ -359,6 +382,16 @@ ul {
     padding-left: 217px;
     padding-right:1253px;
     width: 130px;
+    position: relative;
+}
+.about-text::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 52px;
+    left: 200px;
+    top: 205px;
+    background-color: #FF7129;
 }
 .about-content{
     display: flex;
