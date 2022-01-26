@@ -442,12 +442,37 @@ ul {
     padding-top: 125px;
     padding-left: 217px;
     padding-right: auto;
-    padding-bottom: 67px;
+    padding-bottom:178px;
+    position: relative;
+}
+.contact-title::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 52px;
+    left: 200px;
+    background-color: #FF7129;
+}
+.contact-info{
+    position: relative;
+    margin-left: 229px;
+    margin-bottom: 85px;
+    margin-top: 12px;
 }
 .contact-main{
     display: flex;
     justify-content: space-between;
 }
+.main-title{
+    font-weight:400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+    bottom: 12px;
+    padding-left: 201px;
+    align-self: center;
+}
+
 /*intallation*/
 .installation{
     width: 100%;
