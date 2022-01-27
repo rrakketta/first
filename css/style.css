@@ -282,6 +282,7 @@ ul {
     left: 803px;
     top: 1095px;
 }
+
  .footer{
     width: 100%;
     background-color: #20242D;
@@ -518,15 +519,58 @@ ul {
     left: 200px;
     background-color: #FF7129;
 }
+.contact-title::after{
+    position: absolute;
+    content: "";
+    background-image: url(../img/contact.svg);
+    background-repeat: no-repeat;
+    left: 173px;
+    top: 73px;
+    width: 493px;
+    height: 116px;
+}
+
 .contact-info{
     position: relative;
     margin-left: 229px;
     margin-bottom: 85px;
     margin-top: 12px;
+    position: relative;
+}
+.contact-info::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/map.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    left: -26px;
+}
+.contact-info :nth-of-type(2)::before{
+    background-image: url(../img/phone.svg);
+}
+.contact-info :last-child::before{
+    background-image: url(../img/envelope.svg);
+}
+.text-orange{
+    color: #FF7129;
+}
+.grey-part{
+    background-color: #f5f5f5;
+    width: 698px;
+    height: 122px;
 }
 .contact-main{
     display: flex;
     justify-content: space-between;
+}
+.contact-link{
+    color: #20242D;
+    text-decoration: none;
+}
+.contact-link :nth-of-type(2){
+    font-weight: 600;
 }
 .main-title{
     font-weight:400;
