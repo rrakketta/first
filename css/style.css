@@ -163,25 +163,25 @@ ul {
     text-align: center;
     background-color:rgba(32, 36, 45, 0.3);
  }
- .section-medium::before {
+ .under-banner::before {
     position: absolute;
     content: "";
     width: 379px;
     height: 145px;
     background-image: url(../img/solar.svg);
     background-repeat:no-repeat;
-    left: 16px;
-    top: 290px;
+    left: -491px;
+    top: -190px;
     }
-.section-medium::after{
+.under-banner::after{
     position: absolute;
     content: "";
     width: 444px;
     height: 145px;
     background-image: url(../img/energy.svg);
     background-repeat: no-repeat;
-    left: 1065px;
-    top: 525px;
+    left: 564px;
+    top: 46px;
 }
 
 .banner{
@@ -198,6 +198,7 @@ ul {
      text-align: center;
      width: 508px;
      margin: 0 auto;
+     position: relative;
  }
  .banner-button{
      background-color: #FF7129;
@@ -238,7 +239,7 @@ ul {
     font-size: 48px;
     line-height: 97%;
     color: #20242D;
-    margin-top: 201px;
+   padding-top: 69px;
     position: relative;
     padding-left: 16px;
 
@@ -279,7 +280,7 @@ ul {
     background-image: url(../img/info.svg);
     background-repeat:no-repeat;
     left: 803px;
-    top: 1225px;
+    top: 1095px;
 }
  .footer{
     width: 100%;
@@ -295,7 +296,16 @@ ul {
     display: flex;
     justify-content:space-between;
     align-items:center;
+    position: relative;
 }
+.footer-container:nth-of-type(1)::before {
+    position: absolute;
+    content: "";
+    width: calc(100% - 0px);
+    height: 1px;
+    bottom: -30px;
+    background-color: rgba(123, 126, 133, 0.3);
+ }
 
 .footer-container:last-child{
     padding-top: 50px;
@@ -326,6 +336,7 @@ ul {
 }
 .nav-text{
     color: #7B7E85;  
+    text-decoration: none;
 }
 .footer-logo{
     margin-left: 50px;
@@ -365,7 +376,7 @@ ul {
 }
 .main-about{
     width: 100%;
-    background-image:url(/img/view2p.jpg);
+    background-image:radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0)0%, #20242D 100%), url(/img/view2p.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -406,12 +417,18 @@ ul {
 }
 .about-content{
     display: flex;
-    padding-left: 200px;
+    justify-content: space-between;
     padding-top: 80px;
     padding-bottom: 184px;
     margin: 0 auto;
     font-weight: normal;
     line-height: 24px;
+}
+.first-column{
+    margin-left: 200px;
+}
+.second-column{
+    margin-right: 200px;
 }
 .second-footer-wrapper{
     width: 100%;
@@ -430,8 +447,8 @@ ul {
     background-repeat:no-repeat;
     width: 535px;
     height: 400px;
-    left: -224px;
-    top: 1px;
+    left: -205px;
+    top: 35px;
     z-index: -1;
 
 
@@ -475,6 +492,7 @@ ul {
     display: flex;
     justify-items: center;
     margin: 0 auto;
+    padding-bottom: 153px;
   }
   /*contacts*/
   .contacts{
@@ -561,6 +579,16 @@ ul {
     height: 116px;
     left: -1px;
     top: 30px;
+}
+.installation-name::after{
+    position: absolute;
+    content: "";
+    background-image: url(../img/instalacja.svg);
+    background-repeat: no-repeat;
+    width: 590px;
+    height: 116px;
+    left: 1000px;
+    top: 340px;
 }
 .box{
     width: 100%;
