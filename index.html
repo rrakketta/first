@@ -114,5 +114,31 @@
             </div>
         </div>
         </footer>    
+        <div class="popup-container">
+            <div class="popup-info">
+                <h2 class="count-title">Obliczyć koszt</h2>
+                <button class="popup-close"></button>
+                <p class="count-text">Wprowadź swoje dane, aby obliczyć przybliżony koszt paneli słonecznych.</p>
+            </div>
+            <label class="label-count">
+                Roczne zużycie energii elektrycznej
+            </label>
+            <div class="range-input">
+                <input type="range" min="1" max="100000" value="42000" class="range-popup">
+            </div>
+            <form class="call-form">
+                <label for="" class="count-input">Strona świata
+                    <input type="text" name="side" id="side" placeholder="Wybierz z listy" class="count-input" required>
+                </label>
+                <label for="" class="count-input">Materiał dachu
+                    <input type="text" name="material" id="material" placeholder="Wybierz z listy" class="count-input" required>
+                </label>
+            </form>
+            <div class="send-button">
+                <button class="send" type="submit">Obliczyć</button>
+            </div>
+        </div>
+        </div>
+        <script src="js/script.js"></script>
 </body>
 </html>
