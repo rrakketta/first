@@ -115,30 +115,89 @@
         </div>
         </footer>    
         <div class="popup-container">
-            <div class="popup-info">
-                <h2 class="count-title">Obliczyć koszt</h2>
+            <div class="popup-content">
+                <h2 class="title-oblic-popup">Obliczyć koszt</h2>
                 <button class="popup-close"></button>
-                <p class="count-text">Wprowadź swoje dane, aby obliczyć przybliżony koszt paneli słonecznych.</p>
-            </div>
-            <label class="label-count">
-                Roczne zużycie energii elektrycznej
-            </label>
-            <div class="range-input">
-                <input type="range" min="1" max="100000" value="42000" class="range-popup">
-            </div>
-            <form class="call-form">
-                <label for="" class="count-input">Strona świata
-                    <input type="text" name="side" id="side" placeholder="Wybierz z listy" class="count-input" required>
+                <p class="popup-oblic-text">Wprowadź swoje dane, aby obliczyć przybliżony koszt paneli słonecznych.</p>
+                <label class="label-oblic">
+                    Roczne zużycie energii elektrycznej
                 </label>
-                <label for="" class="count-input">Materiał dachu
-                    <input type="text" name="material" id="material" placeholder="Wybierz z listy" class="count-input" required>
-                </label>
-            </form>
-            <div class="send-button">
-                <button class="send" type="submit">Obliczyć</button>
+                <form class="call-form">
+                    <div class="slidercontainer">
+                        <input type="range" min="1" max="50000" value="50" class="slider-popup">
+                    </div>
+                    <label for="" class="oblic-label-input">Strona świata
+                        <input type="text" name="storona" id="storona" placeholder="Wybierz z listy" class="popup-oblic-button" required>
+                    </label>
+                    <label for="" class="oblic-label-input">Materiał dachu
+                        <input type="text" name="material" id="material" placeholder="Wybierz z listy" class="popup-oblic-button" required>
+                    </label>
+                </form>
+                <div class="send-button button-questions">
+                    <button class="send" type="submit">Obliczyć</button>
+                </div>
             </div>
         </div>
+        <div class="popup-container-questions">
+            <div class="popup-content-questions">
+                <div class="popup-top-price">
+                    <label class="labe-price">Przybliżony koszt:
+                    </label>
+                    <span class="price">40 000 zł</span>
+                    <div class="button-back">
+                        <button class="back">Przeliczyć</button>
+                    </div>
+                </div>
+                <h2 class="title-oblic-popup">Jakieś pytania?</h2>
+                <button class="popup-close close-questions"></button>
+                <p class="popup-oblic-text-questions">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje pytania</p>
+                <form class="call-form">
+                    <div class="questions-name-mail">
+                        <label for="" class="oblic-label-input-questions">Twoje imię
+                            <input type="text" name="storona" id="storona" placeholder="Wprowadź swoje imię" class="input-questions" required>
+                        </label>
+                        <label for="" class="oblic-label-input-questions">E-mail
+                            <input type="text" name="material" id="material" placeholder="Wprowadź mail" class="input-questions" required>
+                        </label>
+                    </div> 
+                        <label for="" class="oblic-label-input-questions">Telefon
+                            <input type="text" name="material" id="material" placeholder="Wprowadź telefon" class="input-questions tel-questions" required>
+                        </label>
+                        <button class="send send-questions button-thanks" type="submit">Wysłać prośbę</button>
+                </form>
+               
+            </div>
+    </div>    
+    <div class="popup-container-thanks">
+        <div class="popup-content-thanks">
+            <div class="popup-svg-thanks"></div>
+            <h2 class="title-oblic-popup-thanks">Dziękuję za twoją prośbę</h2>
+            <button class="popup-close close-thanks"></button>
+            <p class="popup-oblic-text-thanks">Nasz menedżer wkrótce się z Tobą skontaktuje</p>
+            <div class="send-button button-thank">
+                <button class="thanks" type="submit">Ok</button>
+            </div>
         </div>
-        <script src="js/script.js"></script>
+</div>    
+    <div class="popup-container-call-back">
+            <div class="popup-content-call-back">
+                <h2 class="title-oblic-popup">Oddzwoń</h2>
+                <button class="popup-close close-call-back"></button>
+                <p class="popup-oblic-text">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje pytania.</p>
+                <form class="call-form">
+                    <label for="" class="oblic-label-input">Twoje imię
+                        <input type="text" name="storona" id="storona" placeholder="Wprowadź swoje imię" class="popup-oblic-button" required>
+                    </label>
+                    <label for="" class="oblic-label-input">Telefon
+                        <input type="text" name="material" id="material" placeholder="Wprowadź telefon" class="popup-oblic-button" required>
+                    </label>
+                </form>
+                <div class="send-button button-call-back">
+                    <button class="send" type="submit">Zadzwoń</button>
+                </div>
+            </div>
+    </div>
+   
+    <script src="js/script.js"></script>
 </body>
 </html>
