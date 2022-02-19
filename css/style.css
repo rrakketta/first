@@ -649,6 +649,15 @@ ul {
     line-height: 44px;
     font-weight: 700;
 }
+.headline::before{
+
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 52px;
+    left: 400px;
+    background-color: #FF7129;
+}
 .first-header{
     max-width: 542px;
  }
